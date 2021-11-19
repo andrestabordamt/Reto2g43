@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>El Librón</title>
+        <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/misfunciones.js"></script>
+    </head>
+        <body>
+            <h1>Bienvenido a la librería virtual El Librón</h1>
+            <div id="resultado"></div>
+            <button onclick="traerInformacion()">Consultar</button>
+
+            <div>
+                <input type="number" id="id" placeholder="id">
+                <input type="text" id="target" placeholder="target">
+                <input type="number" id="capacity" placeholder="capacity">
+                <input type="number" id="category_id" placeholder="category_id">
+                <input type="text" id="name" placeholder="name">                
+            </div>
+
+            <button onclick="guardarInformacion()">Guardar</button>
+            <button onclick="editarInformacion()">Actualizar</button>
+
+            <h1>Registro de Usuarios</h1>
+            <div id="resultado2"></div>
+            <button onclick="traerInformacioncliente()">Consultar</button>
+            <div>
+                <input type="number" id="idcliente" placeholder="id">
+                <input type="text" id="namecliente" placeholder="name">
+                <input type="text" id="email" placeholder="email">
+                <input type="number" id="age" placeholder="age">
+            </div>
+            <button onclick="guardarInformacioncliente()">Guardar</button>
+            <button onclick="editarInformacioncliente()">Actualizar</button>
+
+            <h1>Mensajes</h1>
+            <div id="resultado3"></div>
+            <button onclick="traerInformacionmen()">Consultar</button>
+            <div>
+                <input type="number" id="idmen" placeholder="id">
+                <input type="text" id="mensajemen" placeholder="mensaje">
+            </div>
+            <button onclick="guardarInformacionmen()">Guardar</button>
+            <button onclick="editarInformacionmen()">Actualizar</button>
+        </body>
+    
+</html> 
